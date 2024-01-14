@@ -48,4 +48,12 @@
                 color: #141416;
                 
                 
-            }
+            @media (max-500px){
+
+                p{
+                   font-size: 35px;
+                  }
+               h1{
+                  font-size:45px;
+                 }
+               }
