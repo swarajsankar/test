@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+    margin:0;
+    background-image: url('bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    }
+    nav{
+        background:#ffffff;
+    width:100%;
+    overflow:auto;
+    
+    }
+    ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+    li{
+    float:left;
+    
+    
+    }
+    nav a{
+        width:120px;
+        display:block;
+        text-decoration:none;
+        text-align:center;
+        background:#ffffff;
+        font-size:17px;
+        color:#141416;
+        padding:20px 10px;
+        font-family:"comic sans mc";
+        }
+        nav a:hover{
+        color:#879673;
+        }
+        nav ul li::after{
+            content:'';
+            height:3px;
+            width:0;
+            background:#879673;
+            position:absolute;
+            left:0;
+            bottom:0;
+            transition:0.5s;
+            }
+            nav ul li:hover::after{
+            width:100%;
+            }
+            nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 10px;
+            position:relative;
+            }
