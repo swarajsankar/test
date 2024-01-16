@@ -5,10 +5,11 @@
     margin:0;
     background-color: #141416;
     background-image: url('bg.jpg');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    
     }
     
         
@@ -48,12 +49,11 @@
                 color: #141416;
                 
                 
-            @media (max-500px){
-
-                p{
-                   font-size: 35px;
-                  }
-               h1{
-                  font-size:45px;
-                 }
-               }
+            }
+            h1{
+                background: linear-gradient(to right,#b92b27,#1565C0);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            
