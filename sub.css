@@ -111,6 +111,8 @@
         }
         input:hover{
             background-color: #d1eaf0;
-            color: #141416;
-            border-color: #141416;
+            color: var(--clr);
+            border-color: #1e9bff;
+            box-shadow: 0 0 35px var(#1e9bff);
+            
         }

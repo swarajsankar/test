@@ -72,7 +72,10 @@
             }
             input:hover{
                 background-color: #d3d3db;
-                color: #141416;
+                color: var(--clr);
+            border-color: #1e9bff;
+            box-shadow: 0 0 35px var(#1e9bff);
+            
                 
                 
             }

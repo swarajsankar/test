@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    
     }
     nav{
         background:#ffffff;
@@ -70,19 +71,28 @@
             font-size: 24px;
             
         }
-        .cods{
+       
+        input{
             width: 200px;
-                padding: 15px 0;
-                text-align: center;
-                margin: 20px 10px;
-                border-radius: 25px;
-                font-weight: bold;
-                border: 2px solid #141416;
-                background: transparent;
-                cursor: pointer;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #141416;
+            background: transparent;
+            cursor: pointer;
+            transition: 0.5s;
+
         }
-        .cods:hover{
+        input:hover{
             background-color: #d3d3db;
-            color: #141416;
-            border-color: #141416;
+            color: var(--clr);
+            border-color: #1e9bff;
+            box-shadow: 0 0 35px var(#1e9bff);
+            
+            
         }
+    h1{
+        text-align: center;
+    }
