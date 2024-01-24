@@ -113,7 +113,7 @@
                 left: 80%;
                 
             }
-@media(width<=600px){
+@media(max-width:600px){
      .content h1{
                 font-size:125px;
      }
