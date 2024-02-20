@@ -38,13 +38,13 @@
         font-family:"comic sans mc";
         }
         nav a:hover{
-        color:#879673;
+        color:#1e9bff;
         }
         nav ul li::after{
             content:'';
             height:3px;
             width:0;
-            background:#879673;
+            background:#1e9bff;
             position:absolute;
             left:0;
             bottom:0;
